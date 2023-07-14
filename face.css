@@ -1,0 +1,109 @@
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Oaedhq5HckcYIY63Hw77O1dNDgUty29MDw&usqp=CAU);
+    background-size: cover;
+      text-shadow: 3px 3px 2px lightcoral, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      height: 550px;
+        border: 5px solid rgb(8, 9, 9); border-radius: 30px;
+        
+  }
+  .penguin{
+    width: 100px; height: 100px;
+    position: relative;
+     margin: auto;
+      margin-top:150px;
+}
+  
+  .penguin *{
+    position: absolute;
+    width: 100px; height: 100px;
+}
+.penguin-top{
+    width: 50px; height: 45px; 
+    background: black;
+    border-radius: 70px 70px 60px 60px;
+    top: 10px; left: 25px;
+}
+.penguin-bottom{
+    width: 50px; height: 45px; 
+    background: black;
+    top: 40px; left: 23.5px;
+    border-radius: 70px 70px 100px 100px;
+}
+.right-hand{
+    width: 30px; height: 30px; 
+    background: black;
+    border-radius: 30px 30px 120px 30px;
+    top: 0px; left: -5px;
+    transform: rotate(45deg);
+}
+.left-hand{
+    width: 27px; height: 30px; 
+    background: black;
+    border-radius: 30px 30px 30px 120px;
+    top: 0px; left: 30px;
+    transform: rotate(-45deg);
+}
+.right-cheek{
+    width: 30px; height: 30px; 
+    background:white;
+    border-radius: 70px 70px 60px 60px;
+    top: 10px; left: 18px;
+}
+.left-cheek{
+    width: 30px; height: 30px; 
+    background:white;
+    border-radius: 70px 70px 60px 60px;
+    top: 10px; right: 18px;
+}
+.belly{
+    width: 40px; height: 38px; 
+    background:white;
+    border-radius: 120px 120px 100px 100px;
+    top: 35px; left: 4px;
+}
+.right-feet{
+    width: 10px; height: 20px; 
+    background:orange;
+    border-radius: 50px;
+    top: 30px; left: 40px;
+    transform: rotate(80deg);
+}
+.left-feet{
+    width: 10px; height: 20px; 
+    background:orange;
+    border-radius: 50px;
+    top: 30px; left: 0px;
+    transform: rotate(-80deg);
+}
+.right-eye{
+        width: 8px; height: 8px; 
+        background:black;
+        border-radius: 50px;
+        top: 20px; left: 30px;
+}
+.left-eye{
+    width: 8px; height: 8px; 
+    background:black;
+    border-radius: 50px;
+    top: 20px; left: 10px;
+}
+
+.right-blush{
+    width: 9px; height: 6px; 
+    background:pink;
+    border-radius: 50px;
+    top: 30px; left: 6px;
+}
+.left-blush{
+    width: 9px; height: 6px; 
+    background:pink;
+    border-radius: 50px;
+    top: 30px; left: 33px;
+}
+.top-beak{
+    width: 5px; height: 5px; 
+    background:orange;
+    border-radius: 50px;
+    top: 30px; left: 21px;
+}
